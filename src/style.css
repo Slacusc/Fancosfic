@@ -1,0 +1,10 @@
+@import './css/welcome.css';
+@import './css/login.css';
+@import './css/home.css';
+@import './css/register.css';
+
+body{
+    background-color: #3BACB6;
+    background-image:url("../img/fondo.png"); 
+    font-family: 'Nunito', sans-serif;
+ }

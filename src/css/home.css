@@ -1,0 +1,274 @@
+/* Basic styling */
+
+* {
+	padding: 0;
+	margin: 0;
+  }
+.like {
+	background-image:url('../img/conLike.png');
+	background-repeat:no-repeat;
+    background-color: lightcyan;
+    height: 25px;
+    width: 25px;
+    background-size: 20px 20px;
+    background-position:center;
+	border-radius: 50%;
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+	border-color: #3BACB6;
+	/*display: none;*/
+}
+.save {
+	background-image:url('../img/save.png');
+	background-repeat:no-repeat;
+    background-color: lightcyan;
+    height: 25px;
+    width: 25px;
+    background-size: 15px 15px;
+    background-position:center;
+	border-radius: 50%;
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+	border-color: #3BACB6;
+	display: none;
+}
+.unlike {
+	background-image:url('../img/sinLike.png');
+	background-repeat:no-repeat;
+    background-color: lightcyan;
+    height: 25px;
+    width: 25px;
+    background-size: 15px 15px;
+    background-position:center;
+	border-radius: 50%;
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+	border-color: #3BACB6;
+}
+.btnedit {
+	background-image: url(../img/lapiz.png);
+	background-color: lightcyan;
+	height: 25px;
+    width: 25px;
+	background-size: 20px 20px;
+	background-position:center;
+	border-radius: 50%;
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+	border-color: #3BACB6;
+}
+.btndel {
+	background-image: url(../img/basu.png);
+	background-color: lightcyan;
+	height: 25px;
+    width: 25px;
+	background-size: 20px 20px;
+	background-position:center;
+	border-radius: 50%;
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+	border-color: #3BACB6;
+}
+  nav {
+	background: #3BACB6;
+	box-sizing: border-box;
+	padding: 5px 20px;
+  }
+  ul {
+	list-style-type: none;
+  }
+  .acolor {
+	color: #ccffcc;
+	text-decoration: none;
+  }
+  .acolor:hover {
+	  color: #005959;
+
+  }
+  .menu li {
+	font-size: large;
+	padding: 15px 5px;
+	white-space: nowrap;
+  }
+  .logo a,
+  .toggle a {
+	font-size: 20px;
+  }
+  #post {
+	resize: none;
+	width: 300px;	
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 20px;
+	margin-top: 10px;
+	padding: 5px;
+	font-family: 'Nunito', sans-serif;
+  }
+  #newPost {
+	margin-left: 60%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+  }
+  .divpost {
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.postOld{
+	border: 1px solid black;
+	background-color: rgba(255, 255, 255, 0.509);
+	width: 300px;
+	height: fit-content;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: row;
+}
+.textbox {
+	display: flex;
+	align-self: flex-start;
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: row;
+	overflow: hidden;
+	
+
+}
+
+
+.btnbox {
+	padding-top: 2%;
+	display: block;
+	align-self: flex-end;
+	text-align: right;
+}
+
+  /* Mobile menu */
+  .menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .toggle {
+	order: 1;
+  }
+  .item {
+	width: 100%;
+	text-align: center;
+	order: 3;
+	display: none;
+  }
+  .item.active {
+	display: block;
+  }
+  .acolor::before {
+	display: block;
+	content: '';
+	width: 0%;
+	background: #444;
+	height: 5px;
+	top:0;
+	position: absolute;
+	transition: width 0.2s;
+  }
+  .logo {
+	background-image: url(../img/fancosfic.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100px;
+  }
+
+
+  /* Tablet menu */
+  @media all and (min-width: 600px) {
+	.menu {
+	  justify-content: center;
+	}
+	.logo {
+	  flex: 1;
+	  background-image: url(../img/logoF.png);
+	  background-size: 50px;
+	}
+	.toggle {
+	  flex: 1;
+	  text-align: right;
+	}
+	.toggle {
+	  order: 2;
+	}
+	#post {
+		width: 350px;
+		height: 150px;
+	}
+
+	#textbox {
+
+		width: 350px;
+		height: 250px;
+		border-radius: 15px;
+		padding: 5px;
+		text-align: center;
+
+	}
+	#newPost {
+		margin-left: 55%;
+	}
+	.postOld {
+		width: 350px;
+	}
+  }
+  /* Desktop menu */
+  @media all and (min-width: 900px) {
+	.item {
+	  display: block;
+	  width: auto;
+	}
+	.toggle {
+	  display: none;
+	}
+	.logo {
+	  order: 0;
+	  background-image: url(../img/logoF.png);
+	  background-size: 50px;
+	}
+	.item {
+	  order: 1;
+	}
+	.menu li {
+	  padding: 15px 10px;
+	}
+	#post {
+		width: 550px;
+		height: 250px;
+	}
+	#newPost {
+		margin-left: 60%;
+	}
+	.postOld {
+		width: 550px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.btndel,.btnedit, .like {
+		height: 30px;
+		width: 30px;
+		background-size: 25px 25px;
+	}
+	.unlike {
+		height: 30px;
+		width: 30px;
+		background-size: 20px 20px;
+	}
+	/* .btnedit {
+		margin-left: 400px;
+	} */
+  }
+

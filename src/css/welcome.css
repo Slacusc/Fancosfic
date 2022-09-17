@@ -1,0 +1,87 @@
+.hd{
+ display: flex;
+ justify-content: center;
+ margin-top: 0;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
+ 
+ }
+ .hd img {
+     width: 90%;
+ }
+ .fcenter {
+     align-items: center;
+     align-content: center;
+     display: flex;
+     flex-direction: column;
+
+ }
+.title{
+     color: white;
+     text-align: center; 
+     margin-top: 5%;
+     margin-bottom: 5%;
+     display: block;
+     width: 100%;
+     font-size: medium;
+     margin-left: auto;
+     margin-right: auto;
+ }
+.sct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+    background-color: rgba(113, 208, 214, 0.1);
+    background-image: url(../img/fondoreg2.jpg);
+    background-size: cover;
+    border: 0;
+    padding: 30px 8px;
+
+
+
+ }
+ 
+.btn, .aut_btn {
+     width: 120px;
+     height: 40px;
+     background: #3BACB6;
+     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+     border-radius: 10px;
+     border-color: #3BACB6;
+     color: white;
+     font-family: 'Nunito', sans-serif;
+     margin: 5px;
+     text-align: center;
+     font-size: small;
+     margin-left: auto;
+     margin-right: auto;
+     
+ 
+ }
+ #start{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.23);
+
+ }
+.sbtitle{
+     color: white;
+     text-align: center; 
+     margin-top: 5%; 
+     font-size: medium;
+     align-self: center;
+ }
+ 
+
+@media (min-width: 380px){
+    .hd img {
+        width: fit-content;
+    }
+
+}
