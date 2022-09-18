@@ -1,5 +1,8 @@
 # FanCosFic (Proyecto Social Network)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7aeea360-c35a-4c35-abb4-2b4f68a6e296/deploy-status)](https://app.netlify.com/sites/classy-kitsune-0460aa/deploys)
+
+
 ## Resumen
 
 **FanCosFic** Es una red social en donde podrás compartir con gente que comparte los mismos intereses que tú. El enfoque de FanCosFic es una comunidad en donde Fanfiquers, Cosplayers y Gamers se reúnan para compartir información, eventos y hacer grupos dentro de ella. Como usuario podrás interactuar en un Timeline en tiempo real, dar likes, subir publicaciones y participar activamente cuando y donde desees. 
